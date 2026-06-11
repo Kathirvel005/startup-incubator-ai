@@ -1,293 +1,351 @@
-# 🚀 Startup Incubator AI
+# Startup Incubator AI - UI Wireframe Design
 
-## 📌 Overview
+## Project Overview
 
-Startup Incubator AI is an AI-powered startup validation and business planning platform that helps entrepreneurs evaluate their startup ideas before investing time and money.
-
-The platform analyzes startup concepts, predicts success probability, calculates risk levels, estimates funding requirements, provides competitor analysis, identifies similar startups, generates implementation roadmaps, and creates downloadable PDF reports.
+Startup Incubator AI is an AI-powered platform that evaluates startup ideas, predicts success probability, analyzes risks, provides competitor insights, and generates implementation roadmaps.
 
 ---
 
-## ✨ Features
-
-### 🧠 AI Startup Analysis
-
-* Startup Idea Evaluation
-* Success Rate Prediction
-* Risk Assessment
-* Innovation Score Calculation
-* Funding Requirement Estimation
-
-### 📈 Business Intelligence
-
-* Competitor Analysis
-* Similar Startup Identification
-* Market Opportunity Insights
-* AI Recommendations
-
-### 📋 Planning & Reporting
-
-* Step-by-Step Implementation Roadmap
-* Downloadable PDF Reports
-* Startup Progress Tracking
-* Business Strategy Suggestions
-
-### 🎨 Modern User Interface
-
-* Animated Gradient Background
-* Dark Mode Support
-* Glassmorphism Design
-* Hover 3D Cards
-* Particle Background Effects
-* Typing Animation
-* Animated Risk Gauge
-* Live Counter Animations
-* Startup World Map Visualization
-* AI Assistant Chat Bubble
-
----
-
-## 🏗️ Technology Stack
-
-### Frontend
-
-* React.js
-* Tailwind CSS
-* Material UI
-* Framer Motion
-* Chart.js
-* React TSParticles
-* React CountUp
-* React Gauge Chart
-* React Simple Maps
-
-### Backend
-
-* Java
-* Spring Boot
-* Spring Security
-* JWT Authentication
-* REST APIs
-
-### Database
-
-* MySQL
-
-### AI Integration
-
-* OpenAI API / Gemini API
-
-### Report Generation
-
-* iText PDF
-
----
-
-## 📂 Project Structure
+# 1. Landing Page Wireframe
 
 ```text
-Startup-Incubator-AI/
-│
-├── backend/                         
-│   ├── package.json                 
-│   ├── server.js                      
-│   └── .env                           
-│
-├── frontend/                          
-│   ├── index.html                     
-│   ├── package.json                   
-│   ├── vite.config.js                 
-│   └── src/
-│       ├── main.jsx                  
-│       ├── App.jsx                  
-│       ├── App.css                    
-│       └── index.css                
-│
-└── README.md                          # Project documentation
++------------------------------------------------------------+
+| LOGO                    Startup Incubator AI      Login    |
++------------------------------------------------------------+
+
+|                                                          |
+|          🚀 Transform Your Startup Idea with AI          |
+|                                                          |
+|      Analyze • Validate • Innovate • Launch             |
+|                                                          |
+|           [ Get Started ]   [ Learn More ]              |
+|                                                          |
++----------------------------------------------------------+
+
+|  Feature 1  |  Feature 2  |  Feature 3  |  Feature 4    |
++----------------------------------------------------------+
+
+|                     Footer                               |
++----------------------------------------------------------+
 ```
 
 ---
 
-## 👥 User Roles
-
-### Entrepreneur
-
-* Submit Startup Idea
-* View Analysis Report
-* Download PDF Report
-* Chat with AI Assistant
-
-### Admin
-
-* Manage Users
-* Monitor Startup Submissions
-* View Analytics Dashboard
-
----
-
-## 🔄 System Workflow
-
-1. User submits startup idea.
-2. AI engine analyzes the idea.
-3. Success and risk rates are calculated.
-4. Innovation score is generated.
-5. Competitor analysis is performed.
-6. Funding requirements are estimated.
-7. Recommendations and roadmap are generated.
-8. Results are stored in the database.
-9. PDF report is created.
-10. User views and downloads the report.
-
----
-
-## 🗄️ Database Tables
-
-### Users
-
-* id
-* name
-* email
-* password
-* role
-
-### Startup Ideas
-
-* id
-* user_id
-* idea_name
-* idea_description
-* platform
-* budget
-
-### Reports
-
-* id
-* startup_id
-* success_rate
-* risk_rate
-* innovation_score
-* required_budget
-* recommendations
-* implementation_steps
-* competitor_analysis
-
----
-
-## 🚀 Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/startup-incubator-ai.git
-cd startup-incubator-ai
-```
-
-### Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-### Backend Setup
-
-```bash
-cd backend
-mvn clean install
-mvn spring-boot:run
-```
-
-### Database Setup
-
-```sql
-CREATE DATABASE startup_incubator_ai;
-```
-
-Update database credentials inside:
-
-```properties
-application.properties
-```
-
----
-
-## 📊 Core Outputs
-
-The platform generates:
-
-* Success Rate (%)
-* Risk Level (%)
-* Innovation Score
-* Required Investment
-* Competitor Analysis
-* Similar Startup Examples
-* AI Recommendations
-* Implementation Roadmap
-* PDF Business Report
-
----
-
-## 🔐 Security Features
-
-* JWT Authentication
-* Password Encryption
-* Secure REST APIs
-* Role-Based Access Control
-
----
-
-## 🌟 Future Enhancements
-
-* Investor Matching System
-* Startup Funding Marketplace
-* AI Pitch Deck Generator
-* Market Trend Prediction
-* Team Building Recommendations
-* Multi-Language Support
-* Mobile Application
-
----
-
-## 📸 Screenshots
-
-Add screenshots inside:
+# 2. Login Page Wireframe
 
 ```text
-/docs/screenshots/
++------------------------------------------------------+
+|                  Startup Incubator AI                |
++------------------------------------------------------+
+
+              Welcome Back
+
+      Email
+      [________________________]
+
+      Password
+      [________________________]
+
+      [ ] Remember Me
+
+      Forgot Password?
+
+      [ Login ]
+
+      Don't have an account?
+      Register Here
+
++------------------------------------------------------+
 ```
 
-Suggested screenshots:
+---
 
-* Login Page
-* Dashboard
-* Startup Analysis Report
-* Competitor Analysis
-* PDF Report
-* AI Chat Assistant
+# 3. Registration Page Wireframe
+
+```text
++------------------------------------------------------+
+|                 Create New Account                   |
++------------------------------------------------------+
+
+      Full Name
+      [________________________]
+
+      Email
+      [________________________]
+
+      Password
+      [________________________]
+
+      Confirm Password
+      [________________________]
+
+      [ Register ]
+
+      Already have an account?
+      Login
+
++------------------------------------------------------+
+```
 
 ---
 
-## 🤝 Contributing
+# 4. Startup Idea Submission Page
 
-Contributions are welcome.
+```text
++------------------------------------------------------+
+|                  Submit Startup Idea                 |
++------------------------------------------------------+
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to your branch
-5. Open a Pull Request
+      Startup Title
+      [____________________________]
+
+      Startup Idea
+      [____________________________]
+      [____________________________]
+      [____________________________]
+
+      Budget Amount
+      [____________________________]
+
+      Platform
+      [ Dropdown ▼ ]
+
+      [ Analyze Startup ]
+
++------------------------------------------------------+
+```
 
 ---
 
-## 📜 License
+# 5. AI Processing Screen
 
-This project is licensed under the MIT License.
+```text
++------------------------------------------------------+
+|                  AI Processing                       |
++------------------------------------------------------+
+
+                 🔄 Analyzing...
+
+               [ Animated Loader ]
+
+      ███████████░░░░░░░░░░░░░░░░
+
+      Generating AI Insights...
+
++------------------------------------------------------+
+```
 
 ---
 
-## 💡 Project Goal
+# 6. Dashboard Wireframe
 
-To help entrepreneurs make smarter startup decisions using Artificial Intelligence, business analytics, and market intelligence tools before launching their products into the real world.
+```text
++------------------------------------------------------+
+| Dashboard | Reports | Profile | Logout              |
++------------------------------------------------------+
 
-### ⭐ If you like this project, give it a star on GitHub!
+| Welcome User 👋                                      |
++------------------------------------------------------+
+
++----------------+----------------+-------------------+
+| Success Rate   | Risk Rate      | Innovation Score  |
++----------------+----------------+-------------------+
+|     85%        |      15%       |       90%         |
++----------------+----------------+-------------------+
+
++------------------------------------------------------+
+| Budget Analysis                                      |
++------------------------------------------------------+
+| Required Amount : ₹450000                            |
+| Status : Sufficient                                  |
++------------------------------------------------------+
+
++------------------------------------------------------+
+| AI Recommendations                                   |
++------------------------------------------------------+
+| ✓ Recommendation 1                                   |
+| ✓ Recommendation 2                                   |
+| ✓ Recommendation 3                                   |
++------------------------------------------------------+
+
++------------------------------------------------------+
+| Download PDF Report                                  |
++------------------------------------------------------+
+| [ Download ]                                         |
++------------------------------------------------------+
+```
+
+---
+
+# 7. Competitor Analysis Wireframe
+
+```text
++------------------------------------------------------+
+|               Competitor Analysis                    |
++------------------------------------------------------+
+
++-----------------------------------------------+
+| Competitor Name | Market Share | Rating       |
++-----------------------------------------------+
+| Startup A       | 35%          | 4.5          |
+| Startup B       | 25%          | 4.0          |
+| Startup C       | 15%          | 3.8          |
++-----------------------------------------------+
+
+```
+
+---
+
+# 8. Similar Startup Examples Wireframe
+
+```text
++------------------------------------------------------+
+|                Similar Startups                      |
++------------------------------------------------------+
+
++----------------------------------------------+
+| Startup Name | Country | Success Rate       |
++----------------------------------------------+
+| Airbnb       | USA     | 92%                |
+| Uber         | USA     | 89%                |
+| Swiggy       | India   | 85%                |
++----------------------------------------------+
+
+```
+
+---
+
+# 9. Implementation Roadmap Wireframe
+
+```text
++------------------------------------------------------+
+|             Startup Roadmap                          |
++------------------------------------------------------+
+
+[1] Market Research
+        ↓
+
+[2] MVP Development
+        ↓
+
+[3] Beta Testing
+        ↓
+
+[4] Product Launch
+        ↓
+
+[5] Marketing & Scaling
+
++------------------------------------------------------+
+```
+
+---
+
+# 10. PDF Report Page Wireframe
+
+```text
++------------------------------------------------------+
+|                 Startup Report                       |
++------------------------------------------------------+
+
+ Success Rate        : 85%
+
+ Risk Rate           : 15%
+
+ Innovation Score    : 90%
+
+ Budget Status       : Sufficient
+
+ Recommendations
+
+ ✓ Recommendation 1
+ ✓ Recommendation 2
+
+ Competitors
+
+ ✓ Startup A
+ ✓ Startup B
+
+ Similar Startups
+
+ ✓ Airbnb
+ ✓ Uber
+
+ [ Download PDF ]
+
++------------------------------------------------------+
+```
+
+---
+
+# User Navigation Flow
+
+```text
+Landing Page
+      │
+      ▼
+Login / Register
+      │
+      ▼
+Submit Startup Idea
+      │
+      ▼
+AI Processing
+      │
+      ▼
+Dashboard
+      │
+ ┌────┼─────────────┬───────────────┐
+ ▼    ▼             ▼               ▼
+
+Recommendations
+Competitors
+Similar Startups
+Roadmap
+
+      │
+      ▼
+Generate PDF Report
+```
+
+---
+
+# UI Design Features
+
+## Modern Design
+
+- Dark Mode
+- Glassmorphism Cards
+- Animated Gradient Background
+- Interactive Charts
+- Progress Indicators
+- Responsive Design
+- Mobile Friendly
+- Framer Motion Animations
+
+---
+
+# Design Tools
+
+Recommended tools:
+
+- Figma
+- Adobe XD
+- Draw.io
+- Canva
+- Gamma AI
+
+---
+
+# Technology Mapping
+
+| UI Module | Technology |
+|------------|------------|
+| Landing Page | React + Tailwind |
+| Login Page | React Forms |
+| Dashboard | React Components |
+| Charts | Chart.js |
+| Animation | Framer Motion |
+| Reports | PDFKit |
+| Backend | Node.js |
+| Database | MySQL |
